@@ -1,2 +1,2 @@
 # terraform-gcp-module-firewall-rules
-Modulo para realizar a criação de uma Instancia no GCP
+Modulo para realizar a criação das regras de firewall no GCP
