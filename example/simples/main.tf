@@ -7,7 +7,7 @@ provider "google" {
 
 
 module "firewall_rules" {
-  source = "../../modules/FirewallRules"
+  source  = "tonnyluiz00/module-firewall-rules/gcp"
 
   firewall_rules = {
     rule1 = {
