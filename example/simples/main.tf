@@ -1,10 +1,6 @@
 provider "google" {
-  #credentials = file("key.json")
-  project = "curso-terraform-tonny"
-  region  = "us-central1"
-  zone    = "us-central1-c"
+  # Configurações do provedor Google Cloud
 }
-
 
 module "firewall_rules" {
   source  = "tonnyluiz00/module-firewall-rules/gcp"
